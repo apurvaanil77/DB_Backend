@@ -8,14 +8,13 @@ This Node.js app is designed for database operations using MongoDB. It includes 
 - [Scripts](#scripts)
 - [Folder Structure](#folder-structure)
 - [Dependencies](#dependencies)
-- [Contributing](#contributing)
 
 ## Installation
 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/rishabhkanojiya/db-be-basic.git
+   git clone https://github.com/apdalvi/db-be-basic.git
    cd db-be-basic
    ```
 
