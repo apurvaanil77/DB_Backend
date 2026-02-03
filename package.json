@@ -1,0 +1,30 @@
+{
+  "name": "db",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "create-migration": "migrate-mongo create -f db/mongoConfig.js",
+    "migration-status": " migrate-mongo status -f db/mongoConfig.js",
+    "migrate": "migrate-mongo up -f db/mongoConfig.js",
+    "rollback": "migrate-mongo down-f db/mongoConfig.js",
+    "rollback-all": "migrate-mongo down -f db/mongoConfig.js",
+    "dev": "nodemon ./src/index.js",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.17.1",
+    "express-async-handler": "^1.2.0",
+    "express-validator": "^7.0.1",
+    "migrate-mongo": "^11.0.0",
+    "mongoose": "^8.0.1",
+    "node-cache": "^5.1.2",
+    "nodemon": "^2.0.2",
+    "validator": "^13.0.0"
+  }
+}
